@@ -1,0 +1,95 @@
+@deep-red:			#663333;
+@light-yellow:		#ffeeaa;
+@light-green:		#ddddbb;
+@off-black:			#222200;
+@gray-brown:		#ccbbaa;
+
+a, a:link {
+	cursor: pointer;
+}
+
+body {
+	padding-top: 50px;
+	font-family: "Arial", sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto Condensed", sans-serif;
+	text-transform: uppercase;
+}
+
+table {
+	tfoot, tbody {
+		th {
+			border-top: 1px solid #DDD;
+		}
+	}
+}
+
+.navbar {
+	background: @off-black;
+	border: none;
+	width: 100%;
+	a {
+		font-family: "Roboto Condensed", sans-serif;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	.nav {
+		.navbar-nav {
+			width: 100%;
+		}
+	}
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFFFFF;
+}
+
+/*** Editing workspace portals ***/
+.container {
+	padding: 0;
+}
+.thumbnail {
+	border: none;
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+		margin: 15px 0;
+	}
+}
+.jumbotron {
+	p {
+		font-size: 16px;
+	}
+}
+.panel {
+	border: none;
+}
+/*** Custom classes ***/
+
+.workspaces {
+	margin-top: 61px;
+	img {
+		border-bottom: 10px @light-yellow solid;
+	}
+}
+
+.sidebar {
+	position: fixed;
+	right: 0;
+}
+
+.presence {
+	float: right;
+	height: 100%;
+	background: @deep-red;
+}
+
+.panel-default {
+	border-radius: 0;
+	.panel-heading {
+		background: @light-green;
+		border-radius: 0;
+	}
+}

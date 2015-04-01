@@ -1,8 +1,8 @@
-```
-title: This is a Page
+---
+title: Events
 layout: page
 tags: ['intro','page']
 pageOrder: 1
-```
+---
 
-This is a **page**
+LIST OF CURRENT EVENTS

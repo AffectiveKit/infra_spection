@@ -41,6 +41,8 @@ docpadConfig = {
 
 			# Styles
 			styles: [
+				"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+				"//fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,latin-ext"
 				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
 			]
